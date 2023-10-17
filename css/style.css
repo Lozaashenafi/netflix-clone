@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.banner-wrapper {
+  height: 700px;
+  width: auto;
+  /* background-color: black; */
+  /* background-image: url(../images/header-image.png); */
+  background: linear-gradient(rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.5)),
+    url(../images/header-image.png);
+  /* index-z: -1;
+  opacity: 1000%; */
+}
+.logo-wrapper {
+  height: 50px;
+  width: 140px;
+  display: inline-block;
+  margin-right: 600px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.header-wrapper .button-wrapper .sign-in {
+  display: inline-block;
+  height: 35px;
+  width: 80px;
+  background-color: #e50914;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+.header-wrapper .button-wrapper .sign-in:hover {
+  background-color: #c11119;
+  cursor: pointer;
+}
+.signup-wrapper {
+  text-align: center;
+  color: #fff;
+}
+.netflix-tv-wrapper .service-description {
+  margin-top: 200px;
+}
+.signup-wrapper .service-description {
+  margin-top: 200px;
+}
+.service-description h1 {
+  font-size: 55px;
+  font-weight: 1200;
+  color: #fff;
+  text-align: center;
+}
+.advertise {
+  margin-top: 25px;
+  font-size: 25px;
+  color: #fff;
+}
+.internal-signup-wrapper {
+  margin-top: 20px;
+}
+.internal-signup-wrapper p {
+  font-size: 22px;
+}
+.internal-signup-wrapper .email-box {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 350px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.email-box p {
+  text-align: left;
+  margin: 12px auto 12px 10px;
+  opacity: 0.8;
+  font-size: 20px;
+}
+.internal-signup-wrapper .button {
+  display: inline-block;
+}
+.get-started {
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #e50914;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+.internal-signup-wrapper .get-started:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.get-started:hover {
+  background-color: #c11119;
+  cursor: pointer;
+}
+.netflix-tv-wrapper {
+  display: flex;
+  background-color: black;
+  height: 600px;
+  border-bottom: #232323 solid 8px;
+  border-top: #232323 solid 8px;
+}
+.netflix-tv-wrapper .internal-wrapper .image-container {
+  width: 500px;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+.netflix-tv-wrapper .internal-wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+.netflix-download-wrapper {
+  background-color: black;
+  display: flex;
+  border-bottom: #232323 solid 8px;
+}
+.netflix-download-wrapper .image-container {
+  display: inline-block;
+  width: 450px;
+  height: 430px;
+}
+.netflix-download-wrapper .internal-wrapper {
+  display: flex;
+  margin: 150px auto 0 auto;
+}
+.netflix-download-wrapper .internal-wrapper .description-wrapper {
+  width: 500px;
+}
+.netflix-download-wrapper
+  .internal-wrapper
+  .description-wrapper
+  .service-description
+  h1 {
+  text-align: left;
+}
+.netflix-everywhere {
+  background-color: black;
+  height: 400px;
+  border-bottom: #232323 solid 8px;
+}
+.netflix-everywhere .internal-wrapper {
+  width: 350px;
+  padding: 50px;
+  padding-left: 200px;
+}
+.netflix-everywhere .internal-wrapper .service-description h1 {
+  text-align: left;
+}
+.netflix-kids-wrapper {
+  background-color: black;
+  height: 500px;
+  border-bottom: #232323 solid 8px;
+}
+.netflix-kids-wrapper .internal-wrapper {
+  display: flex;
+  padding-top: 70px;
+  margin: 0 auto;
+  width: 1000px;
+}
+.netflix-kids-wrapper .internal-wrapper .description-wrapper {
+  width: 500px;
+}
+.netflix-kids-wrapper .internal-wrapper .image-container {
+  width: 450px;
+}
+.netflix-kids-wrapper .internal-wrapper .description-wrapper h1 {
+  text-align: left;
+}
+.netflix-questions-wrapper {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-bottom: #232323 solid 8px;
+}
+.netflix-questions-wrapper .service-description {
+  padding-top: 70px;
+}
+.netflix-questions-wrapper .questions-wrapper {
+  width: 1000px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+}
+.netflix-questions-wrapper .questions-wrapper .question {
+  width: 980px;
+  height: 75px;
+  background-color: #2d2d2d;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.netflix-questions-wrapper .questions-wrapper .question:hover {
+  background-color: #4e4e4e;
+  cursor: pointer;
+}
+.netflix-questions-wrapper .questions-wrapper .question h3 {
+  font-size: 22px;
+  /* text-align: left; */
+  padding-left: 20px;
+}
+.netflix-questions-wrapper .internal-signup-wrapper {
+  padding-bottom: 80px;
+}
+.contact a {
+  color: #cecccc;
+}
+.contact {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-container {
+  background-color: black;
+  height: 500px;
+}
+.link a {
+  color: #cecccc;
+  text-underline-position: #f9f6f6;
+  display: block;
+  padding-bottom: 20px;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.footer-container .internal-wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.language p {
+  color: white;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.language {
+  border: #cecccc solid 1px;
+  border-radius: 4px;
+  display: flex;
+  width: 120px;
+  height: 30px;
+  padding-top: 10px;
+}
+.language img {
+  width: 10px;
+  height: 8px;
+  padding-top: 7px;
+}
+.country {
+  padding-top: 30px;
+  color: #fff;
+}
+/* .question h3::after {
+  content: "+";
+  font-size: 50px;
+} */
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.question p {
+  font-size: 50px;
+  padding-right: 20px;
+}
+.question h3 {
+}
